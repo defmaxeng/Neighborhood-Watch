@@ -1,78 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            @font-face {
-                font-family: 'Lexend';
-                src: url('path/to/Lexend-Bold.woff2') format('woff2'),
-                    url('path/to/Lexend-Bold.woff') format('woff');
-                font-weight: bold;
-                font-style: normal;
-            }
-            
-            html {
-                background-color: #222831;
-                font-family: 'Lexend', sans-serif;
-            }
-            header {
-                position:absolute;
-                height:60px;
-                width:100%;
-                left:0px;
-                z-index:1;
-                top:0px;
-                color:white;
-                font-size:34px;
-                padding-top:30px;
-                text-align: center;
-                font-weight:bold;
-            }
-
-            #map {
-                
-                height:600px;
-                border:10px solid black;
-                width:100%;
-                margin-bottom:-4px;
-            }
-            #map-container {
-                position:absolute;
-                width:90%;
-                left:4.5%;
-                top:90px;
-                border:10px solid #888888;
-            }
-            #menu-container {
-                z-index:3333;
-            }
-
-            #menu-symbol {
-                position:absolute;
-                right:20px;
-                top:10px;
-                z-index:1;
-                font-weight:bold;
-                height:60px;
-            }
-            #current-event-container {
-                position:absolute;
-                width:90%;
-                left:5%;
-                border:1px solid white;
-                top:740px;
-                height:300px;
-                
-            }
-
-           
-            #current-event-title-wrapper {
-                color:white;
-                text-align: center;
-                font-size:54px;
-                margin-top:20px;
-                font-weight:bold;
-            }
-        </style>
+        <link href="styles.css" rel="stylesheet" />
     </head>
     <body>
         <header>The Neighborhood Watch</header>

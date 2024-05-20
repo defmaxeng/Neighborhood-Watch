@@ -9,7 +9,9 @@
 html {
     background-color: #222831;
     font-family: 'Lexend', sans-serif;
+    
 }
+
 header {
     position:absolute;
     height:60px;
@@ -25,18 +27,15 @@ header {
 }
 
 #map {
-    
-    height:600px;
-    border:10px solid black;
+    height:900px;
     width:100%;
-    margin-bottom:-4px;
 }
+
 #map-container {
     position:absolute;
-    width:90%;
-    left:4.5%;
-    top:90px;
-    border:10px solid #888888;
+    width:100%;
+    left:0;
+    top:0px;
 }
 #menu-container {
     z-index:3333;
@@ -50,6 +49,7 @@ header {
     font-weight:bold;
     height:60px;
 }
+
 #current-event-container {
     position:absolute;
     width:90%;
@@ -67,4 +67,47 @@ header {
     font-size:54px;
     margin-top:20px;
     font-weight:bold;
+}
+
+#map-cover {
+    width:100%;
+    background-color:black;
+    z-index:2;
+    height:900px;
+    position:absolute;
+    opacity: 0.8;
+    top:0px;
+    left:0px;
+}
+
+#thetitle {
+    z-index:3;
+    color:white;
+    position:absolute;
+    left:17%;
+    font-size:60px;
+    top:200px;
+    
+}
+
+#description {
+    z-index:3;
+    color:white;
+    position: absolute;
+    font-size:20px;
+    top:330px;
+    left:17%;
+}
+
+#explore {
+    position:absolute;
+    z-index:3;
+    color:white;
+    background-color:#FF6600;
+    padding:20px;
+    padding-left:40px;
+    padding-right:40px;
+    font-size:20px;
+    left:17%;
+    top:420px;
 }
